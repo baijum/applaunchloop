@@ -74,8 +74,8 @@ class MainActivity : ComponentActivity() {
 
     private fun extractCampaignId(intent: Intent?): String? {
         val data = intent?.data ?: return null
-        if (data.host == "baijum.github.io" && data.path?.startsWith("/join/") == true) {
-            return data.path?.removePrefix("/join/")?.trimEnd('/')?.takeIf { it.isNotBlank() }
+        if (data.host == "baijum.github.io" && data.path?.startsWith("/applaunchloop/join/") == true) {
+            return data.path?.removePrefix("/applaunchloop/join/")?.trimEnd('/')?.takeIf { it.isNotBlank() }
         }
         return null
     }

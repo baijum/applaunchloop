@@ -37,7 +37,7 @@
                 <data
                     android:scheme="https"
                     android:host="baijum.github.io"
-                    android:pathPrefix="/join/" />
+                    android:pathPrefix="/applaunchloop/join/" />
             </intent-filter>
         </activity>
     </application>

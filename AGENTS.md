@@ -79,7 +79,7 @@ Collection `campaigns`, document ID = campaign ID:
 
 - Scheme: `https`
 - Host: `baijum.github.io`
-- Path pattern: `/join/{campaignId}`
+- Path pattern: `/applaunchloop/join/{campaignId}`
 - `autoVerify="true"` requires `docs/.well-known/assetlinks.json`
 
 ## Files That Must Not Be Committed
@@ -101,5 +101,5 @@ Collection `campaigns`, document ID = campaign ID:
 ~/Library/Android/sdk/platform-tools/adb shell am start -n com.baijum.applaunchloop/.MainActivity
 
 # Test deep link
-~/Library/Android/sdk/platform-tools/adb shell am start -a android.intent.action.VIEW -d "https://baijum.github.io/join/TEST123"
+~/Library/Android/sdk/platform-tools/adb shell am start -a android.intent.action.VIEW -d "https://baijum.github.io/applaunchloop/join/TEST123"
 ```

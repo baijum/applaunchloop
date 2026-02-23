@@ -132,7 +132,7 @@ fun CreatorDashboardScreen(
             }
 
             uiState.generatedCampaignId?.let { campaignId ->
-                val joinLink = "https://baijum.github.io/join/$campaignId"
+                val joinLink = "https://baijum.github.io/applaunchloop/join/$campaignId"
 
                 Card(
                     modifier = Modifier.fillMaxWidth(),

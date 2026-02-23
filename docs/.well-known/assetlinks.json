@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.baijum.applaunchloop",
+      "sha256_cert_fingerprints": [
+        "74:AC:D7:E3:49:A5:ED:67:6B:0D:91:4E:68:62:0B:EB:0E:33:0B:91:36:4A:22:4D:33:F0:F4:F9:94:09:5D:34"
+      ]
+    }
+  }
+]

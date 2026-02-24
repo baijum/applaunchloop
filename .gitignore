@@ -14,3 +14,5 @@
 *.jks
 *.keystore
 google-services.json
+keystore.properties
+play-service-account.json

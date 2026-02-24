@@ -73,6 +73,7 @@ android {
 
 play {
     track.set("internal")
+    releaseStatus.set(com.github.triplet.gradle.androidpublisher.ReleaseStatus.DRAFT)
     defaultToAppBundles.set(true)
     serviceAccountCredentials.set(file("play-service-account.json"))
 }
